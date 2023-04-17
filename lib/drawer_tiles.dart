@@ -80,7 +80,6 @@ class _DrawerScreenState extends State<DrawerScreen> {
                   text: 'Open File',
                   icon: Icons.folder_outlined,
                   onClicked: () => isSelectedItem(context, 1)),
-
               buildMenuItem(
                   text: 'Share Files',
                   icon: Icons.share_outlined,
@@ -88,16 +87,16 @@ class _DrawerScreenState extends State<DrawerScreen> {
               buildMenuItem(
                   text: 'Drive Download File',
                   icon: Icons.backup_outlined,
-                  onClicked: () => isSelectedItem(context, 4)),
+                  onClicked: () => isSelectedItem(context, 3)),
               const Divider(color: Colors.white,endIndent: 10,indent: 10),
               buildMenuItem(
                   text: 'Settings',
                   icon: Icons.settings,
-                  onClicked: () => isSelectedItem(context, 5)),
+                  onClicked: () => isSelectedItem(context, 4)),
               buildMenuItem(
                   text: 'Log Out',
                   icon: Icons.power_settings_new_rounded,
-                  onClicked: () => isSelectedItem(context, 6)),
+                  onClicked: () => isSelectedItem(context, 5)),
             ],
           ),
         ],
